@@ -1,0 +1,56 @@
+$pink: rgb(249, 7, 124);
+$darkGrey: rgb(152, 159, 164);
+$blue: rgb(12, 150, 218);
+$white: rgb(255, 255, 255);
+$black: rgb(9, 9, 9);
+$green: rgb(119, 215, 67);
+
+
+.jumbotron {
+  background-image: url(/blah.jpg);
+  font-size: 80px;
+  text-align: center;
+  color:$blue;
+  font-family: 'Bungee', cursive;
+  font-style: italic;
+  text-shadow: -4px 0 $black, 0 4px $black, 4px 0 $black, 0 -4px $black;
+}
+.header-links {
+    background-color: $black;
+    color: $white;
+    list-style: none;
+    height: 60px;
+    padding: 20px;
+    font-size: 15px;
+  }
+  .header-links img {
+    width: 50%;
+  }
+  .header-links li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  .header-links li a {
+    color: $white;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: $blue;
+  }
+
+
+  .aboutUs {
+    img {
+    width: 400px;
+    height: 300px;
+  }
+  font-size: 20px;
+}
+#app {
+  img {
+    width: 200px;
+    height: 200px;
+  }
+}

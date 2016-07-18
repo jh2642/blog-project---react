@@ -1,0 +1,52 @@
+.jumbotron {
+  background-image: url(/blah.jpg);
+  font-size: 80px;
+  text-align: center;
+  color: #0c96da;
+  font-family: 'Bungee', cursive;
+  font-style: italic;
+  text-shadow: -4px 0 #090909, 0 4px #090909, 4px 0 #090909, 0 -4px #090909;
+}
+
+.header-links {
+  background-color: #090909;
+  color: white;
+  list-style: none;
+  height: 60px;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.header-links img {
+  width: 50%;
+}
+
+.header-links li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.header-links li a {
+  color: white;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #0c96da;
+}
+
+.aboutUs {
+  font-size: 20px;
+}
+
+.aboutUs img {
+  width: 400px;
+  height: 300px;
+}
+
+#app img {
+  width: 200px;
+  height: 200px;
+}
